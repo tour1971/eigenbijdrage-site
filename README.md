@@ -5,6 +5,11 @@ Statische website voor eigenbijdrage.nl: een oplossing voor scholen, stichtingen
 ## Inhoud
 
 - `index.html`: de volledige landingspagina
+- `hoe-werkt-het.html`: uitleg van de betaalronde
+- `voor-wie.html`: doelgroepen
+- `prijzen.html`: pakketten en extra acties
+- `contact.html`: demo-aanvraag
+- `functies/*.html`: subpagina's per functionaliteit
 - `styles.css`: styling en responsive layout
 - `robots.txt`: crawler-toegang en sitemapverwijzing
 - `sitemap.xml`: canonieke URL voor zoekmachines

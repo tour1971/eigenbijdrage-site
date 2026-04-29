@@ -29,6 +29,8 @@ De dienstverlening gebruikt de software van Incassotool.net voor betaalverzoeken
 - Communicatie via e-mail, sms, WhatsApp of brief
 - Dashboard voor betaalstatus per klas, leerjaar, vestiging, activiteit of deelnemer
 - Import via Excel, CSV of koppeling
+- Bankkoppeling en automatische betalingsherkenning
+- Dossieropbouw voor contactmomenten, betaaltoezeggingen en vervolgstappen
 
 ## Kostenstructuur
 
@@ -44,6 +46,20 @@ Demo aanvragen via: info@incassotool.net
 
 Website: https://eigenbijdrage.nl/
 Softwareprovider: https://www.incassotool.net/
+
+## Belangrijke pagina's
+
+- https://eigenbijdrage.nl/hoe-werkt-het
+- https://eigenbijdrage.nl/voor-wie
+- https://eigenbijdrage.nl/prijzen
+- https://eigenbijdrage.nl/functies/betaalgemak
+- https://eigenbijdrage.nl/functies/betaalregelingen
+- https://eigenbijdrage.nl/functies/herinneringen
+- https://eigenbijdrage.nl/functies/huisstijl
+- https://eigenbijdrage.nl/functies/bankkoppeling
+- https://eigenbijdrage.nl/functies/rapportage
+- https://eigenbijdrage.nl/functies/sociaal-innen
+- https://eigenbijdrage.nl/functies/dossieropbouw
 
 ## Meer context voor agents
 

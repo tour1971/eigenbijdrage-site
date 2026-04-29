@@ -3,21 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eigenbijdrage.nl | Schoolbijdragen makkelijk innen</title>
-    <meta
-      name="description"
-      content="Eigenbijdrage.nl helpt scholen en instellingen om ouderbijdragen, schoolreisjes, kampgeld en andere bijdragen eenvoudig te innen met Incassotool.net."
-    >
+    <title>Eigenbijdrage.nl | Bijdragen innen voor scholen en instellingen</title>
+    <meta name="description" content="Eigenbijdrage.nl helpt scholen en instellingen om ouderbijdragen, schoolkosten en activiteitenbijdragen rustig en automatisch te innen met Incassotool.net.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Eigenbijdrage.nl">
     <meta name="application-name" content="Eigenbijdrage.nl">
-    <meta name="theme-color" content="#174f9f">
+    <meta name="theme-color" content="#2f5f9f">
     <link rel="canonical" href="https://eigenbijdrage.nl/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="nl_NL">
     <meta property="og:site_name" content="Eigenbijdrage.nl">
-    <meta property="og:title" content="Eigenbijdrage.nl | Schoolbijdragen makkelijk innen">
-    <meta property="og:description" content="Maak ouderbijdragen, kampgeld en andere schoolbijdragen makkelijk betaalbaar met iDEAL, termijnen en automatische opvolging.">
+    <meta property="og:title" content="Eigenbijdrage.nl | Bijdragen innen voor scholen">
+    <meta property="og:description" content="Duidelijke betaalverzoeken, termijnen, herinneringen en overzicht voor schoolbijdragen en instellingsbijdragen.">
     <meta property="og:url" content="https://eigenbijdrage.nl/">
     <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="styles.css">
@@ -38,53 +35,17 @@
             "name": "Eigenbijdrage.nl",
             "url": "https://eigenbijdrage.nl/",
             "inLanguage": "nl-NL",
-            "publisher": {
-              "@id": "https://eigenbijdrage.nl/#organization"
-            }
+            "publisher": { "@id": "https://eigenbijdrage.nl/#organization" }
           },
           {
             "@type": "Service",
             "@id": "https://eigenbijdrage.nl/#service",
             "name": "Eigenbijdrage.nl",
             "url": "https://eigenbijdrage.nl/",
-            "description": "Eigenbijdrage.nl helpt scholen, stichtingen en instellingen om ouderbijdragen, schoolreisjes, kampgeld, leermiddelen en andere bijdragen eenvoudig te innen met de software van Incassotool.net.",
-            "areaServed": {
-              "@type": "Country",
-              "name": "Nederland"
-            },
-            "audience": {
-              "@type": "Audience",
-              "audienceType": "Scholen, onderwijsinstellingen, stichtingen en maatschappelijke instellingen"
-            },
-            "provider": {
-              "@type": "Organization",
-              "name": "Incassotool.net",
-              "url": "https://www.incassotool.net/"
-            },
-            "serviceType": "Software voor het innen van schoolbijdragen en ouderbijdragen",
-            "offers": [
-              {
-                "@type": "Offer",
-                "name": "Start",
-                "price": "0.14",
-                "priceCurrency": "EUR",
-                "description": "Voor een jaarlijkse betaalronde per leerling, deelnemer of dossier."
-              },
-              {
-                "@type": "Offer",
-                "name": "Plus",
-                "price": "0.23",
-                "priceCurrency": "EUR",
-                "description": "Voor meerdere bijdragen per jaar, termijnbetalingen en extra communicatiekanalen."
-              },
-              {
-                "@type": "Offer",
-                "name": "All-in",
-                "price": "0.55",
-                "priceCurrency": "EUR",
-                "description": "Voor volledige ondersteuning bij inrichting, controle en betaalrondes."
-              }
-            ]
+            "description": "Software en begeleiding voor het innen van ouderbijdragen, schoolkosten, activiteitenbijdragen en instellingsbijdragen met betaalverzoeken, termijnen, herinneringen, bankkoppeling en rapportage.",
+            "areaServed": { "@type": "Country", "name": "Nederland" },
+            "provider": { "@type": "Organization", "name": "Incassotool.net", "url": "https://www.incassotool.net/" },
+            "serviceType": "Bijdrage-inning voor scholen en instellingen"
           }
         ]
       }
@@ -92,242 +53,155 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Eigenbijdrage.nl">
+      <a class="brand" href="/">
         <span class="brand-mark">EB</span>
         <span>eigenbijdrage.nl</span>
       </a>
       <nav class="main-nav" aria-label="Hoofdnavigatie">
-        <a href="#ouders">Voor ouders</a>
-        <a href="#school">Voor school</a>
-        <a href="#bijdragen">Bijdragen</a>
-        <a href="#kosten">Kosten</a>
+        <a href="/hoe-werkt-het">Hoe werkt het</a>
+        <a href="/functies/betaalgemak">Functies</a>
+        <a href="/voor-wie">Voor wie</a>
+        <a href="/prijzen">Prijzen</a>
       </nav>
-      <a class="header-cta" href="#contact">Plan demo</a>
+      <a class="header-cta" href="/contact">Plan demo</a>
     </header>
 
-    <main id="top">
-      <section class="hero">
+    <main>
+      <section class="hero spacious">
         <div class="hero-copy">
           <p class="eyebrow">Voor scholen, stichtingen en instellingen</p>
-          <h1>Ouderbijdragen innen zonder gedoe voor ouders of administratie.</h1>
+          <h1>Bijdragen innen zonder losse lijstjes, ongemakkelijke mails of vergeten betalingen.</h1>
           <p class="hero-text">
-            Met Eigenbijdrage.nl verstuurt uw school duidelijke betaalverzoeken,
-            volgen ouders eenvoudig via iDEAL en houdt de administratie grip op iedere bijdrage.
-            De inning draait op de software van Incassotool.net.
+            Eigenbijdrage.nl vertaalt contributie-inning naar het onderwijs: duidelijke betaalverzoeken,
+            vriendelijke opvolging, betaalregelingen en overzicht per klas, leerjaar, vestiging of activiteit.
+            De techniek draait op Incassotool.net.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#contact">Vraag een demo aan</a>
-            <a class="button secondary" href="#school">Bekijk hoe het werkt</a>
-          </div>
-          <div class="trust-row" aria-label="Belangrijkste voordelen">
-            <span>iDEAL betaallinks</span>
-            <span>Termijnen mogelijk</span>
-            <span>Automatische herinneringen</span>
+            <a class="button primary" href="/contact">Vraag een demo aan</a>
+            <a class="button secondary" href="/hoe-werkt-het">Bekijk de werkwijze</a>
           </div>
         </div>
-
-        <div class="payment-scene" aria-label="Voorbeeld van betaling en schooldashboard">
-          <div class="phone-card">
-            <div class="phone-top"></div>
-            <p class="phone-label">Betaalverzoek</p>
+        <div class="hero-panel" aria-label="Voorbeeld van betaalroute">
+          <div class="soft-phone">
+            <p class="mini-label">Betaalverzoek van school</p>
             <h2>Werkweek leerjaar 2</h2>
             <p class="amount">€ 125,00</p>
-            <div class="payment-lines">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <button type="button">Betaal met iDEAL</button>
-            <a href="#contact">Betaal in termijnen</a>
+            <div class="soft-lines"><span></span><span></span><span></span></div>
+            <button type="button">Betaal veilig met iDEAL</button>
+            <a href="/functies/betaalregelingen">Of kies een betaalregeling</a>
           </div>
-
-          <div class="admin-card">
-            <div class="admin-header">
-              <div>
-                <p>Schooldashboard</p>
-                <strong>Bijdragen 2026</strong>
-              </div>
-              <span>82% betaald</span>
-            </div>
-            <div class="admin-progress"><span></span></div>
-            <div class="admin-list">
-              <div><span class="status paid"></span><p>Vrijwillige ouderbijdrage</p><strong>€ 18.420</strong></div>
-              <div><span class="status pending"></span><p>Schoolreis groep 8</p><strong>42 open</strong></div>
-              <div><span class="status plan"></span><p>Laptopregeling</p><strong>termijn</strong></div>
-            </div>
+          <div class="status-card">
+            <p>Administratie</p>
+            <strong>82% betaald</strong>
+            <div class="progress"><span></span></div>
+            <ul>
+              <li><span></span> 148 ouders betaald</li>
+              <li><span></span> 31 herinneringen gepland</li>
+              <li><span></span> 12 betaalregelingen actief</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section id="ouders" class="section parent-flow">
+      <section class="section calm-band">
         <div class="section-heading">
-          <p class="eyebrow">Voor ouders</p>
-          <h2>Betalen voelt duidelijk, veilig en herkenbaar.</h2>
+          <p class="eyebrow">Van contributie naar schoolbijdrage</p>
+          <h2>Alle functies die verenigingen gebruiken, vertaald naar ouderbijdragen en schoolkosten.</h2>
           <p>
-            Ouders ontvangen een nette uitnodiging vanuit de school, zien meteen waarvoor de bijdrage is
-            en kunnen direct betalen of een passende betaalafspraak volgen.
+            JeContributie.nl automatiseert contributie-inning voor verenigingen. Eigenbijdrage.nl gebruikt diezelfde
+            denkwijze voor scholen en instellingen: importeren, betaalverzoeken versturen, betalingen herkennen,
+            herinneren, regelingen aanbieden en rapporteren.
           </p>
         </div>
-        <div class="flow-grid">
-          <article>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Functionaliteiten</p>
+          <h2>Een ruime set voor elke bijdrage die terugkomt.</h2>
+        </div>
+        <div class="feature-grid large">
+          <a class="feature-card" href="/functies/betaalgemak">
             <span>01</span>
-            <h3>Heldere uitnodiging</h3>
-            <p>Een vriendelijke mail, sms, WhatsApp of brief met uitleg en betaallink.</p>
-          </article>
-          <article>
+            <h3>Betaalgemak</h3>
+            <p>Ouders betalen via iDEAL, QR-code of een persoonlijke betaallink.</p>
+          </a>
+          <a class="feature-card" href="/functies/betaalregelingen">
             <span>02</span>
-            <h3>Bekende betaling</h3>
-            <p>Betalen via iDEAL, met de bijdrage, omschrijving en school duidelijk in beeld.</p>
-          </article>
-          <article>
+            <h3>Betaalregelingen</h3>
+            <p>Termijnen en betaaltoezeggingen helpen ouders betalen op een passend moment.</p>
+          </a>
+          <a class="feature-card" href="/functies/herinneringen">
             <span>03</span>
-            <h3>Rustige opvolging</h3>
-            <p>Herinneringen worden automatisch verstuurd in een toon die past bij uw beleid.</p>
-          </article>
+            <h3>Vriendelijke herinneringen</h3>
+            <p>Workflows met meerdere contactmomenten, zonder dat de administratie steeds hoeft te mailen.</p>
+          </a>
+          <a class="feature-card" href="/functies/huisstijl">
+            <span>04</span>
+            <h3>Eigen schoolstijl</h3>
+            <p>Berichten, betaalpagina’s en brieven herkenbaar in de toon en uitstraling van uw school.</p>
+          </a>
+          <a class="feature-card" href="/functies/bankkoppeling">
+            <span>05</span>
+            <h3>Bankkoppeling</h3>
+            <p>Betalingen worden automatisch herkend en aan de juiste bijdrage gekoppeld.</p>
+          </a>
+          <a class="feature-card" href="/functies/rapportage">
+            <span>06</span>
+            <h3>Rapportage</h3>
+            <p>Overzicht per groep, leerjaar, vestiging, activiteit of deelnemer.</p>
+          </a>
+          <a class="feature-card" href="/functies/sociaal-innen">
+            <span>07</span>
+            <h3>Sociaal innen</h3>
+            <p>Menselijke opvolging, gericht op betalen mogelijk maken en escalatie voorkomen.</p>
+          </a>
+          <a class="feature-card" href="/functies/dossieropbouw">
+            <span>08</span>
+            <h3>Dossieropbouw</h3>
+            <p>Alle contactmomenten en betalingen netjes vastgelegd voor vervolgstappen.</p>
+          </a>
         </div>
       </section>
 
-      <section id="school" class="section school-panel">
-        <div class="school-copy">
-          <p class="eyebrow">Voor de administratie</p>
-          <h2>Geen losse Excel-lijsten meer naast uw mailbox.</h2>
-          <p>
-            Importeer leerlingen, deelnemers of dossiers, maak per groep of activiteit een betaalronde
-            en volg de status centraal. Uw team ziet wie betaald heeft, welke herinnering is verstuurd
-            en waar nog actie nodig is.
-          </p>
-          <ul class="check-list">
-            <li>Import via Excel, CSV of koppeling</li>
-            <li>Overzicht per klas, leerjaar, vestiging of activiteit</li>
-            <li>Automatische herinneringen en dossieropbouw</li>
-            <li>Geschikt voor vrijwillige bijdragen en verplichte kosten</li>
-          </ul>
-        </div>
-        <div class="dashboard-card">
-          <div class="dash-top">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="dash-metrics">
-            <article>
-              <small>Betaald</small>
-              <strong>€ 42.860</strong>
-            </article>
-            <article>
-              <small>Openstaand</small>
-              <strong>€ 8.420</strong>
-            </article>
-          </div>
-          <div class="dash-table">
-            <div><p>Groep 7 ouderbijdrage</p><span>94%</span></div>
-            <div><p>Kamp leerjaar 1</p><span>76%</span></div>
-            <div><p>Device-regeling</p><span>61%</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="bijdragen" class="section contribution-types">
-        <div class="section-heading compact">
-          <p class="eyebrow">Bijdragen</p>
-          <h2>Voor alles wat scholen normaal met losse betaalverzoeken oplossen.</h2>
-        </div>
-        <div class="type-grid">
-          <article>
-            <h3>Vrijwillige ouderbijdrage</h3>
-            <p>Jaarlijkse bijdrage per leerling, klas of vestiging.</p>
-          </article>
-          <article>
-            <h3>Schoolreis en kamp</h3>
-            <p>Losse activiteiten met duidelijke betalingstermijnen.</p>
-          </article>
-          <article>
-            <h3>Leermiddelen en devices</h3>
-            <p>Materialen, laptopregelingen en gespreide betalingen.</p>
-          </article>
-          <article>
-            <h3>Cursus en examen</h3>
-            <p>Voor instellingen, opleiders en maatschappelijke organisaties.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="kosten" class="section pricing">
-        <div class="section-heading compact">
-          <p class="eyebrow">Kostenstructuur</p>
-          <h2>Duidelijke tarieven per leerling, deelnemer of dossier.</h2>
-        </div>
-        <div class="pricing-grid">
-          <article class="price-card">
-            <p class="plan-label">Start</p>
-            <h3>Voor één jaarlijkse ronde</h3>
-            <div class="price"><span>€</span>0,14</div>
-            <p class="price-note">per persoon per maand</p>
-            <ul>
-              <li>Betaalverzoeken</li>
-              <li>E-mailherinneringen</li>
-              <li>Dashboard en export</li>
-            </ul>
-          </article>
-          <article class="price-card featured">
-            <p class="plan-label">Plus</p>
-            <h3>Voor meerdere bijdragen per jaar</h3>
-            <div class="price"><span>vanaf €</span>0,23</div>
-            <p class="price-note">per persoon per maand</p>
-            <ul>
-              <li>Termijnbetalingen</li>
-              <li>SMS, WhatsApp en brief mogelijk</li>
-              <li>Opvolging op openstaande posten</li>
-            </ul>
-          </article>
-          <article class="price-card">
-            <p class="plan-label">All-in</p>
-            <h3>Voor volledige ondersteuning</h3>
-            <div class="price"><span>vanaf €</span>0,55</div>
-            <p class="price-note">per persoon per maand</p>
-            <ul>
-              <li>Inrichting en controle</li>
-              <li>Ondersteuning bij betaalrondes</li>
-              <li>Afstemming op uw beleid</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact">
+      <section class="section split soft">
         <div>
-          <p class="eyebrow">Demo aanvragen</p>
-          <h2>Laat ons zien hoe u nu int. Dan maken we de route eenvoudiger.</h2>
-          <p>
-            We laten graag zien hoe Eigenbijdrage.nl en Incassotool.net samen werken voor uw school,
-            stichting of instelling.
-          </p>
+          <p class="eyebrow">Voor ouders</p>
+          <h2>Betalen voelt duidelijk, vertrouwd en niet onnodig streng.</h2>
         </div>
-        <form class="contact-form" action="mailto:info@incassotool.net" method="post" enctype="text/plain">
-          <label>
-            Naam
-            <input name="naam" autocomplete="name" required>
-          </label>
-          <label>
-            Organisatie
-            <input name="organisatie" autocomplete="organization" required>
-          </label>
-          <label>
-            E-mail
-            <input type="email" name="email" autocomplete="email" required>
-          </label>
-          <label>
-            Waarvoor wilt u bijdragen innen?
-            <textarea name="bericht" rows="4"></textarea>
-          </label>
-          <button class="button primary" type="submit">Demo aanvragen</button>
-        </form>
+        <div class="text-block">
+          <p>
+            Ouders krijgen een begrijpelijk betaalverzoek met een directe betaalmogelijkheid. Als betalen niet meteen
+            lukt, kan de school termijnen of een betaaltoezegging aanbieden. Zo blijft de communicatie netjes en
+            praktisch, terwijl de administratie wel grip houdt.
+          </p>
+          <a class="text-link" href="/functies/sociaal-innen">Lees meer over sociaal innen</a>
+        </div>
+      </section>
+
+      <section class="section pricing-preview">
+        <div class="section-heading">
+          <p class="eyebrow">Kosten</p>
+          <h2>Duidelijke pakketten en aparte kosten voor extra acties.</h2>
+        </div>
+        <div class="price-row">
+          <article><span>Start</span><strong>€0,14</strong><p>per persoon per maand</p></article>
+          <article><span>Plus</span><strong>vanaf €0,23</strong><p>met termijnen en extra kanalen</p></article>
+          <article><span>All-in</span><strong>vanaf €0,55</strong><p>met volledige ondersteuning</p></article>
+        </div>
+        <a class="button secondary" href="/prijzen">Bekijk prijzen en extra acties</a>
+      </section>
+
+      <section class="section cta">
+        <p class="eyebrow">Demo</p>
+        <h2>Laat zien hoe uw school nu bijdragen int. Dan maken we de route eenvoudiger.</h2>
+        <a class="button primary" href="/contact">Plan een kennismaking</a>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>© 2026 Eigenbijdrage.nl</p>
-      <p>Bijdrage-inning met de software van Incassotool.net.</p>
+      <p>Bijdrage-inning met Incassotool.net</p>
     </footer>
   </body>
 </html>

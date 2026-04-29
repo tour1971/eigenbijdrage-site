@@ -40,14 +40,31 @@ Scholen kunnen duidelijke betaalverzoeken versturen, ouders kunnen eenvoudig bet
 
 - Betaalverzoeken met duidelijke omschrijving
 - iDEAL-betaallinks
+- Persoonlijke QR-codes in e-mails en brieven
 - Termijnbetalingen
 - Betaalafspraken
+- Betaaltoezeggingen met gekozen betaaldatum
 - Automatische herinneringen
 - Communicatie via e-mail, sms, WhatsApp of brief
 - Dashboard voor betaalstatus
 - Overzicht per leerling, deelnemer, klas, leerjaar, vestiging of activiteit
 - Import via Excel, CSV of koppeling
+- Bankkoppeling en automatische betalingsherkenning
 - Dossieropbouw voor opvolging
+
+## Subpagina's
+
+- /hoe-werkt-het: proces van importeren, betaalronde klaarzetten, versturen, herkennen, herinneren en rapporteren
+- /voor-wie: doelgroepen zoals basisscholen, middelbare scholen, schoolbesturen, stichtingen, opleiders en maatschappelijke instellingen
+- /prijzen: pakketten en extra acties
+- /functies/betaalgemak: iDEAL, betaallinks en QR-codes
+- /functies/betaalregelingen: termijnen en betaaltoezeggingen
+- /functies/herinneringen: workflows via meerdere kanalen
+- /functies/huisstijl: communicatie in schoolstijl
+- /functies/bankkoppeling: automatische betalingsherkenning
+- /functies/rapportage: overzichten en exports
+- /functies/sociaal-innen: menselijke opvolging
+- /functies/dossieropbouw: contactmomenten en betaalhistorie vastleggen
 
 ## Kostenstructuur
 
