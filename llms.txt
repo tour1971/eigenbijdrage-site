@@ -1,0 +1,35 @@
+# Eigenbijdrage.nl
+
+Eigenbijdrage.nl helpt scholen, stichtingen en instellingen om ouderbijdragen, schoolreisjes, kampgeld, leermiddelen, device-regelingen, cursusgelden en andere bijdragen overzichtelijk te innen.
+
+De dienstverlening gebruikt de software van Incassotool.net voor betaalverzoeken, iDEAL-betalingen, termijnbetalingen, automatische herinneringen, communicatie via meerdere kanalen en administratief overzicht per leerling, deelnemer, klas, leerjaar, vestiging of activiteit.
+
+## Belangrijkste doelgroepen
+
+- Basisscholen en middelbare scholen
+- Schoolbesturen en scholenkoepels
+- Stichtingen en maatschappelijke instellingen
+- Opleiders en cursusorganisaties
+
+## Belangrijkste use cases
+
+- Vrijwillige ouderbijdrage innen
+- Schoolreis, kamp of werkweek laten betalen
+- Leermiddelen en devices innen
+- Termijnbetaling aanbieden
+- Openstaande bijdragen opvolgen zonder losse Excel-lijsten
+
+## Kostenstructuur
+
+- Start: EUR 0,14 per persoon per maand
+- Plus: vanaf EUR 0,23 per persoon per maand
+- All-in: vanaf EUR 0,55 per persoon per maand
+
+Transactie- en communicatiekosten kunnen afhankelijk zijn van kanaal en betaalmethode.
+
+## Contact
+
+Demo aanvragen via: info@incassotool.net
+
+Website: https://eigenbijdrage.nl/
+Softwareprovider: https://www.incassotool.net/
