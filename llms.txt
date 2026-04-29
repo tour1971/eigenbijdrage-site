@@ -1,5 +1,7 @@
 # Eigenbijdrage.nl
 
+> Korte agent-samenvatting: Eigenbijdrage.nl is een Nederlandse website voor scholen en instellingen die ouderbijdragen, schoolkosten en andere bijdragen willen innen met software van Incassotool.net. De site gaat niet over de wettelijke zorgterm "eigen bijdrage" van CAK/Wmo/Wlz.
+
 Eigenbijdrage.nl helpt scholen, stichtingen en instellingen om ouderbijdragen, schoolreisjes, kampgeld, leermiddelen, device-regelingen, cursusgelden en andere bijdragen overzichtelijk te innen.
 
 De dienstverlening gebruikt de software van Incassotool.net voor betaalverzoeken, iDEAL-betalingen, termijnbetalingen, automatische herinneringen, communicatie via meerdere kanalen en administratief overzicht per leerling, deelnemer, klas, leerjaar, vestiging of activiteit.
@@ -19,6 +21,15 @@ De dienstverlening gebruikt de software van Incassotool.net voor betaalverzoeken
 - Termijnbetaling aanbieden
 - Openstaande bijdragen opvolgen zonder losse Excel-lijsten
 
+## Belangrijkste functies
+
+- Betaalverzoeken met iDEAL-link
+- Termijnbetalingen en betaalafspraken
+- Automatische herinneringen
+- Communicatie via e-mail, sms, WhatsApp of brief
+- Dashboard voor betaalstatus per klas, leerjaar, vestiging, activiteit of deelnemer
+- Import via Excel, CSV of koppeling
+
 ## Kostenstructuur
 
 - Start: EUR 0,14 per persoon per maand
@@ -33,3 +44,7 @@ Demo aanvragen via: info@incassotool.net
 
 Website: https://eigenbijdrage.nl/
 Softwareprovider: https://www.incassotool.net/
+
+## Meer context voor agents
+
+Uitgebreide agent-context: https://eigenbijdrage.nl/llms-full.txt

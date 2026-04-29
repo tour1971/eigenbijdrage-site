@@ -1,0 +1,9 @@
+/* TEAM */
+Website: Eigenbijdrage.nl
+Contact: info@incassotool.net
+
+/* SITE */
+Language: Nederlands
+Canonical URL: https://eigenbijdrage.nl/
+Purpose: Schoolbijdragen en instellingsbijdragen innen met software van Incassotool.net.
+Software provider: https://www.incassotool.net/

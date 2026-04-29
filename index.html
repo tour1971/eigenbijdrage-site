@@ -9,6 +9,9 @@
       content="Eigenbijdrage.nl helpt scholen en instellingen om ouderbijdragen, schoolreisjes, kampgeld en andere bijdragen eenvoudig te innen met Incassotool.net."
     >
     <meta name="robots" content="index, follow">
+    <meta name="author" content="Eigenbijdrage.nl">
+    <meta name="application-name" content="Eigenbijdrage.nl">
+    <meta name="theme-color" content="#174f9f">
     <link rel="canonical" href="https://eigenbijdrage.nl/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="nl_NL">
@@ -16,50 +19,72 @@
     <meta property="og:title" content="Eigenbijdrage.nl | Schoolbijdragen makkelijk innen">
     <meta property="og:description" content="Maak ouderbijdragen, kampgeld en andere schoolbijdragen makkelijk betaalbaar met iDEAL, termijnen en automatische opvolging.">
     <meta property="og:url" content="https://eigenbijdrage.nl/">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Eigenbijdrage.nl",
-        "url": "https://eigenbijdrage.nl/",
-        "description": "Eigenbijdrage.nl helpt scholen, stichtingen en instellingen om ouderbijdragen, schoolreisjes, kampgeld, leermiddelen en andere bijdragen eenvoudig te innen met de software van Incassotool.net.",
-        "areaServed": {
-          "@type": "Country",
-          "name": "Nederland"
-        },
-        "audience": {
-          "@type": "Audience",
-          "audienceType": "Scholen, onderwijsinstellingen, stichtingen en maatschappelijke instellingen"
-        },
-        "provider": {
-          "@type": "Organization",
-          "name": "Incassotool.net",
-          "url": "https://www.incassotool.net/"
-        },
-        "serviceType": "Software voor het innen van schoolbijdragen en ouderbijdragen",
-        "offers": [
+        "@graph": [
           {
-            "@type": "Offer",
-            "name": "Start",
-            "price": "0.14",
-            "priceCurrency": "EUR",
-            "description": "Voor een jaarlijkse betaalronde per leerling, deelnemer of dossier."
+            "@type": "Organization",
+            "@id": "https://eigenbijdrage.nl/#organization",
+            "name": "Eigenbijdrage.nl",
+            "url": "https://eigenbijdrage.nl/",
+            "email": "info@incassotool.net"
           },
           {
-            "@type": "Offer",
-            "name": "Plus",
-            "price": "0.23",
-            "priceCurrency": "EUR",
-            "description": "Voor meerdere bijdragen per jaar, termijnbetalingen en extra communicatiekanalen."
+            "@type": "WebSite",
+            "@id": "https://eigenbijdrage.nl/#website",
+            "name": "Eigenbijdrage.nl",
+            "url": "https://eigenbijdrage.nl/",
+            "inLanguage": "nl-NL",
+            "publisher": {
+              "@id": "https://eigenbijdrage.nl/#organization"
+            }
           },
           {
-            "@type": "Offer",
-            "name": "All-in",
-            "price": "0.55",
-            "priceCurrency": "EUR",
-            "description": "Voor volledige ondersteuning bij inrichting, controle en betaalrondes."
+            "@type": "Service",
+            "@id": "https://eigenbijdrage.nl/#service",
+            "name": "Eigenbijdrage.nl",
+            "url": "https://eigenbijdrage.nl/",
+            "description": "Eigenbijdrage.nl helpt scholen, stichtingen en instellingen om ouderbijdragen, schoolreisjes, kampgeld, leermiddelen en andere bijdragen eenvoudig te innen met de software van Incassotool.net.",
+            "areaServed": {
+              "@type": "Country",
+              "name": "Nederland"
+            },
+            "audience": {
+              "@type": "Audience",
+              "audienceType": "Scholen, onderwijsinstellingen, stichtingen en maatschappelijke instellingen"
+            },
+            "provider": {
+              "@type": "Organization",
+              "name": "Incassotool.net",
+              "url": "https://www.incassotool.net/"
+            },
+            "serviceType": "Software voor het innen van schoolbijdragen en ouderbijdragen",
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Start",
+                "price": "0.14",
+                "priceCurrency": "EUR",
+                "description": "Voor een jaarlijkse betaalronde per leerling, deelnemer of dossier."
+              },
+              {
+                "@type": "Offer",
+                "name": "Plus",
+                "price": "0.23",
+                "priceCurrency": "EUR",
+                "description": "Voor meerdere bijdragen per jaar, termijnbetalingen en extra communicatiekanalen."
+              },
+              {
+                "@type": "Offer",
+                "name": "All-in",
+                "price": "0.55",
+                "priceCurrency": "EUR",
+                "description": "Voor volledige ondersteuning bij inrichting, controle en betaalrondes."
+              }
+            ]
           }
         ]
       }

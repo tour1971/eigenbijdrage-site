@@ -1,0 +1,76 @@
+# Eigenbijdrage.nl - uitgebreide context voor LLMs en agents
+
+## Doel van de website
+
+Eigenbijdrage.nl is bedoeld voor scholen, schoolbesturen, stichtingen, opleiders en maatschappelijke instellingen die bijdragen willen innen zonder losse Excel-lijsten, losse e-mails en handmatige herinneringen.
+
+De site positioneert Eigenbijdrage.nl als een praktische oplossing voor het innen van schoolbijdragen en instellingsbijdragen met behulp van de software van Incassotool.net.
+
+Belangrijke disambiguatie: deze website gaat niet over de wettelijke zorgterm "eigen bijdrage" van CAK, Wmo of Wlz. De focus ligt op bijdragen binnen onderwijs en instellingen.
+
+## Kernpropositie
+
+Ouderbijdragen en andere bijdragen innen zonder gedoe voor ouders of administratie.
+
+Scholen kunnen duidelijke betaalverzoeken versturen, ouders kunnen eenvoudig betalen via iDEAL of een passende betaalroute volgen, en de administratie houdt overzicht op betaalstatus, herinneringen en openstaande posten.
+
+## Doelgroepen
+
+- Basisscholen
+- Middelbare scholen
+- Schoolbesturen
+- Scholenkoepels
+- Stichtingen
+- Maatschappelijke instellingen
+- Opleiders en cursusorganisaties
+
+## Bijdragen waarvoor de oplossing geschikt is
+
+- Vrijwillige ouderbijdrage
+- Schoolreis
+- Kamp
+- Werkweek
+- Leermiddelen
+- Device-regelingen, zoals laptops of tablets
+- Cursusgelden
+- Examenkosten
+- Overige instellingsbijdragen
+
+## Functionaliteit
+
+- Betaalverzoeken met duidelijke omschrijving
+- iDEAL-betaallinks
+- Termijnbetalingen
+- Betaalafspraken
+- Automatische herinneringen
+- Communicatie via e-mail, sms, WhatsApp of brief
+- Dashboard voor betaalstatus
+- Overzicht per leerling, deelnemer, klas, leerjaar, vestiging of activiteit
+- Import via Excel, CSV of koppeling
+- Dossieropbouw voor opvolging
+
+## Kostenstructuur
+
+De site noemt drie pakketten:
+
+- Start: EUR 0,14 per persoon per maand
+- Plus: vanaf EUR 0,23 per persoon per maand
+- All-in: vanaf EUR 0,55 per persoon per maand
+
+Transactie- en communicatiekosten kunnen afhankelijk zijn van kanaal en betaalmethode.
+
+## Relatie met Incassotool.net
+
+Eigenbijdrage.nl gebruikt de software van Incassotool.net als technische motor voor betaalverzoeken, opvolging, communicatie en administratief overzicht.
+
+Softwareprovider: https://www.incassotool.net/
+
+## Contact en conversie
+
+Primaire conversie: demo aanvragen.
+
+Contactadres voor demo-aanvragen: info@incassotool.net
+
+## Canonieke URL
+
+https://eigenbijdrage.nl/
