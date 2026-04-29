@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="88" viewBox="0 0 320 88" role="img" aria-labelledby="title desc">
+  <title id="title">Eigenbijdrage.nl logo</title>
+  <desc id="desc">Een rond school- en betaalicoon met het woordmerk Eigenbijdrage.nl.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="12" y1="10" x2="74" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2f5f9f"/>
+      <stop offset="1" stop-color="#cf4d58"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="76" height="76" rx="24" fill="url(#markGradient)"/>
+  <path d="M25 36.5 44 27l19 9.5-19 9.5-19-9.5Z" fill="#fff"/>
+  <path d="M31 44.5v10.2c0 2.8 5.9 6.3 13 6.3s13-3.5 13-6.3V44.5l-13 6.4-13-6.4Z" fill="#fff" opacity=".88"/>
+  <path d="M61.5 40v11" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="61.5" cy="56" r="3.8" fill="#fff"/>
+  <text x="100" y="41" fill="#22304a" font-family="Nunito Sans, Arial, sans-serif" font-size="28" font-weight="900">Eigenbijdrage</text>
+  <text x="100" y="66" fill="#647189" font-family="Nunito Sans, Arial, sans-serif" font-size="18" font-weight="800">schoolbijdragen makkelijk innen</text>
+  <text x="285" y="41" fill="#cf4d58" font-family="Nunito Sans, Arial, sans-serif" font-size="24" font-weight="900">.nl</text>
+</svg>

@@ -64,7 +64,7 @@ a {
 }
 
 .brand-mark {
-  display: grid;
+  display: inline-grid;
   width: 40px;
   height: 40px;
   place-items: center;
@@ -72,6 +72,17 @@ a {
   background: linear-gradient(135deg, var(--blue), var(--red));
   border-radius: 14px;
   font-size: 13px;
+  flex: 0 0 auto;
+}
+
+.brand-mark svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .main-nav {
@@ -357,11 +368,43 @@ p {
   box-shadow: var(--shadow);
 }
 
-.feature-card span {
+.feature-card > span:not(.icon-pill) {
   display: inline-flex;
-  margin-bottom: 34px;
+  margin-bottom: 18px;
   color: var(--red);
   font-weight: 900;
+}
+
+.icon-pill {
+  display: inline-grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  margin-bottom: 26px;
+  color: var(--blue);
+  background: var(--blue-soft);
+  border: 1px solid rgba(47, 95, 159, 0.12);
+  border-radius: 18px;
+}
+
+.feature-card:nth-child(3n + 2) .icon-pill {
+  color: var(--red);
+  background: var(--red-soft);
+}
+
+.feature-card:nth-child(3n) .icon-pill {
+  color: #3c8b6a;
+  background: #eaf8f1;
+}
+
+.icon-pill svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .split {
