@@ -31,6 +31,10 @@ De dienstverlening gebruikt de software van Incassotool.net voor betaalverzoeken
 - Import via Excel, CSV of koppeling
 - Bankkoppeling en automatische betalingsherkenning
 - Dossieropbouw voor contactmomenten, betaaltoezeggingen en vervolgstappen
+- Oudersegmentatie voor gerichtere opvolging
+- Nudging met vriendelijke betaalprikkels
+- Betaalplatformen zoals iDEAL, automatische incasso en terugkoppeling
+- Privacy en security rond ouder-, leerling- en betaalgegevens
 
 ## Kostenstructuur
 
@@ -60,6 +64,10 @@ Softwareprovider: https://www.incassotool.net/
 - https://eigenbijdrage.nl/functies/rapportage
 - https://eigenbijdrage.nl/functies/sociaal-innen
 - https://eigenbijdrage.nl/functies/dossieropbouw
+- https://eigenbijdrage.nl/functies/oudersegmentatie
+- https://eigenbijdrage.nl/functies/nudging
+- https://eigenbijdrage.nl/functies/betaalplatformen
+- https://eigenbijdrage.nl/functies/privacy-security
 
 ## Meer context voor agents
 

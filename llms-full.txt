@@ -51,6 +51,10 @@ Scholen kunnen duidelijke betaalverzoeken versturen, ouders kunnen eenvoudig bet
 - Import via Excel, CSV of koppeling
 - Bankkoppeling en automatische betalingsherkenning
 - Dossieropbouw voor opvolging
+- Oudersegmentatie voor opvolging per bijdrage, klas, vestiging, status of regeling
+- Nudging met vriendelijke betaalprikkels
+- Betaalplatformen voor iDEAL, incasso, deelbetaling en terugkoppeling
+- Privacy en security voor ouder-, leerling- en betaalgegevens
 
 ## Subpagina's
 
@@ -65,6 +69,10 @@ Scholen kunnen duidelijke betaalverzoeken versturen, ouders kunnen eenvoudig bet
 - /functies/rapportage: overzichten en exports
 - /functies/sociaal-innen: menselijke opvolging
 - /functies/dossieropbouw: contactmomenten en betaalhistorie vastleggen
+- /functies/oudersegmentatie: gerichte communicatie per doelgroep of status
+- /functies/nudging: betaalprikkels en timing
+- /functies/betaalplatformen: betaalmethoden en statusverwerking
+- /functies/privacy-security: zorgvuldige gegevensverwerking
 
 ## Kostenstructuur
 
